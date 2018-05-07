@@ -1,28 +1,14 @@
-run:
-A
-B
-C
-D
-E
-F
-G
-H
-I
-J
-K
-L
-M
-N
-O
-P
-Q
-R
-S
-T
-U
-V
-W
-X
-Y
-Z
-BUILD SUCCESSFUL (total time: 0 seconds)
+package capitalletters;
+
+public class CapitalLetters {
+
+    public static void main(String[] args) {
+       char l;
+       for(l='A';l<='Z';l++)
+       {
+           System.out.println(l);
+       }
+    }
+    
+}
+
